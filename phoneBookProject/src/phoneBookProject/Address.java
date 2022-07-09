@@ -30,7 +30,9 @@ public class Address {
 		for (int i = 0; i < tempAddr.length; i++) {
 			newStrName += tempAddr[i];
 			if (i != tempAddr.length - 2) {
-				newStrName += newStrName + " ";
+				newStrName += " ";
+			} else {
+				newStrName +=",";
 			}
 		} this.streetName = newStrName;
 		
