@@ -32,7 +32,7 @@ public class Address {
 			if (i != tempAddr.length - 2) {
 				newStrName += " ";
 			} else {
-				newStrName +=",";
+				newStrName += ",";
 			}
 		} this.streetName = newStrName;
 		
