@@ -28,9 +28,11 @@ public class Address {
 		
 		this.streetNumber = Integer.parseInt(tempAddr[0]);
 		for (int i = 0; i < tempAddr.length; i++) {
-			newStrName = tempAddr[i];
+			newStrName += tempAddr[i];
 			if (i != tempAddr.length - 2) {
-				newStrName = newStrName + " ";
+				newStrName += " ";
+			} else {
+				newStrName += ",";
 			}
 		} this.streetName = newStrName;
 		
